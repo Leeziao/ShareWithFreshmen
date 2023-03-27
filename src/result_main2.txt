@@ -1,0 +1,6 @@
+main2.c:4:9: warning: incompatible implicit declaration of built-in function ‘printf’
+    4 |         printf("Hello World 1\n");
+      |         ^~~~~~
+main2.c:4:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+Hello World 1
+Hello World 2
