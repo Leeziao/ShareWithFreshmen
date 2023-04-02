@@ -128,7 +128,7 @@
 		\item 将网址中的\texttt{.com}改为\texttt{.dev}，打开在线编辑器
 		\item 点击侧边栏中的\texttt{Run and Debug} (Ctrl+Shift+D)
 		\item 点击\texttt{Continue Working On...}
-		\item 点击\texttt{Create New Codespace}，随便选一个服务器配置,然后稍等
+		\item 点击\texttt{Create New Codespace}，随便选一个配置，然后稍等\footnote{直到弹出一个新页面}
 		\item 点击侧边栏中的\texttt{Extensions} (Ctrl+Shift+X)
 		\item 搜索并安装插件\texttt{Code Runner}
 		\item 打开\text{src}目录下的\texttt{.c}文件，并点击右上角箭头运行
@@ -149,7 +149,7 @@
 
 \begin{frame}[fragile]
 	\headline{激发自己的好奇心 - 神奇的\texttt{printf}}
-	\lstinputlisting[language=c, title=将\texttt{\#include<stdio.h>}去掉，它还能运行吗？]{src/main2.c}
+	\lstinputlisting[language=c, title=将\texttt{\#include<stdio.h>}去掉，它还能运行吗？]{src/main2.c}\pause
 
 	\lstinputlisting[language=c, title=居然能成功运行！但是...有warning]{src/result_main2.txt}
 	
@@ -161,12 +161,12 @@
 
 \begin{frame}[fragile]
 	\headline{激发自己的好奇心 - 神奇的\texttt{printf}}
-	\lstinputlisting[language=c, title=加上从\texttt{stdio.h}里面找到\texttt{printf}函数的声明\footnote{Borland C选手可以在\texttt{/BC31/DISK\_C/BORLANDC/INCLUDE/STDIO.H}中找到}]{src/main3.c}
+	\lstinputlisting[language=c, title=加上从\texttt{stdio.h}里面找到\texttt{printf}函数的声明\footnote{Borland C选手可以在\texttt{/BC31/DISK\_C/BORLANDC/INCLUDE/STDIO.H}中找到}]{src/main3.c}\pause
 
 	\begin{itemize}
 		\item 成功运行！并且\texttt{0 error 0 warning}
 		\item 那么，\texttt{printf}的定义（源代码）又在那里呢？
-		\item 我们能不能自己加上对\texttt{printf}的定义呢？
+		\item 相似的，我们能不能自己加上对\texttt{printf}的定义呢？
 	\end{itemize}
 \end{frame}
 
@@ -240,6 +240,7 @@
 		\item \href{https://www.bilibili.com/video/BV1x7411H7wa/}{The Missing Semester of Your CS Education}：一些cs的基础。我没看过但大伙一致推荐
 		\item \href{https://space.bilibili.com/202224425/channel/collectiondetail?sid=192498}{操作系统：设计与实现}：（虽然）讲的是操作系统但是讲的特别有意思
 		\item \href{https://www.acwing.com/}{AcWing}：如果你要学算法（Leetcode）不妨从这里开始（收费）
+		\item \href{https://csdiy.wiki/}{CS自学指南}：和CS有关的课程这里都有
 	\end{itemize}
 \end{frame}
 
